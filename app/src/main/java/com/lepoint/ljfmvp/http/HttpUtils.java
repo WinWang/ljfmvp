@@ -15,11 +15,11 @@ public class HttpUtils {
 
     private static ApiService apiService;
 
-    public static ApiService getGankService() {
+    public static ApiService getGankService(String BASE_URL) {
         if (apiService == null) {
             synchronized (HttpUtils.class) {
                 if (apiService == null) {
-                    apiService = XApi.getInstance().getRetrofit(BASE_URL, true).create(ApiService.class);
+                    apiService = XApi.getInstance().getRetrofit(BASE_URL+"/", true).create(ApiService.class);
                 }
             }
         }

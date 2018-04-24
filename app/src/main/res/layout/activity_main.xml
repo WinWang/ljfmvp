@@ -14,6 +14,13 @@
         android:text="Hello World!"
         />
 
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="测试按钮"
+        android:id="@+id/buttonPanel"/>
+
+
     <android.support.v4.view.ViewPager
         android:layout_width="match_parent"
         android:layout_height="0dp"
