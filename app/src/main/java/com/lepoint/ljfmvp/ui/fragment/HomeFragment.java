@@ -1,12 +1,15 @@
 package com.lepoint.ljfmvp.ui.fragment;
 
 import android.os.Bundle;
+import android.widget.Button;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.lepoint.ljfmvp.R;
 import com.lepoint.ljfmvp.present.HomeFragPresent;
 
 import butterknife.BindView;
+import butterknife.OnClick;
 import cn.droidlover.xdroidmvp.mvp.XLazyFragment;
 
 /**
@@ -16,6 +19,8 @@ import cn.droidlover.xdroidmvp.mvp.XLazyFragment;
 public class HomeFragment extends XLazyFragment<HomeFragPresent> {
     @BindView(R.id.tv_home_frag)
     TextView tvHomeFrag;
+    @BindView(R.id.btn_home_frag_text)
+    Button btnHomeFragText;
 
     @Override
     public void initData(Bundle savedInstanceState) {
@@ -24,6 +29,7 @@ public class HomeFragment extends XLazyFragment<HomeFragPresent> {
 
     public void setData(String text) {
         tvHomeFrag.setText(text);
+        Toast.makeText(context, text, Toast.LENGTH_SHORT).show();
     }
 
     @Override
@@ -36,4 +42,10 @@ public class HomeFragment extends XLazyFragment<HomeFragPresent> {
         return new HomeFragPresent();
     }
 
+
+
+    @OnClick(R.id.btn_home_frag_text)
+    public void onViewClicked() {
+        getP().getNetData(context);
+    }
 }

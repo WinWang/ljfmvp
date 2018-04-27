@@ -6,6 +6,8 @@ import android.support.annotation.Nullable;
 import android.view.Menu;
 import android.view.View;
 
+import com.qmuiteam.qmui.util.QMUIStatusBarHelper;
+import com.qmuiteam.qmui.widget.QMUITopBar;
 import com.tbruyelle.rxpermissions2.RxPermissions;
 import com.trello.rxlifecycle2.components.support.RxAppCompatActivity;
 
@@ -27,21 +29,26 @@ public abstract class XActivity<P extends IPresent> extends RxAppCompatActivity 
     private RxPermissions rxPermissions;
 
     private Unbinder unbinder;
+    protected QMUITopBar topBar;
 
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         context = this;
-
+        QMUIStatusBarHelper.translucent(this);
+        QMUIStatusBarHelper.setStatusBarLightMode(this);
         if (getLayoutId() > 0) {
             setContentView(getLayoutId());
+            initTopBar();
             bindUI(null);
             bindEvent();
         }
         initData(savedInstanceState);
 
     }
+
+    protected abstract void initTopBar();
 
     @Override
     public void bindUI(View rootView) {

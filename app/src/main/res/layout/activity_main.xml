@@ -6,7 +6,16 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:fitsSystemWindows="true"
     tools:context="com.lepoint.ljfmvp.ui.activity.MainActivity">
+
+    <com.qmuiteam.qmui.widget.QMUITopBar
+        app:qmui_topbar_title_color="@color/qmui_config_color_75_white"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/qmui_topbar_height"
+        android:id="@+id/qm_topbar"
+        ></com.qmuiteam.qmui.widget.QMUITopBar>
+
 
     <TextView
         android:layout_width="wrap_content"

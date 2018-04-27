@@ -45,6 +45,9 @@ dependencies {
     compile rootProject.ext.dependencies["rxlifecycle-android"]
     compile rootProject.ext.dependencies["rxlifecycle-components"]
     compile rootProject.ext.dependencies["rxpermissions"]
+
+    compile rootProject.ext.dependencies["QMUI"]
+
 }
 
 tasks.withType(JavaCompile) {

@@ -1094,6 +1094,24 @@ public class Kits {
             }
         }
 
+
+        /**
+         * 判断是否有网络
+         * @param paramContext
+         * @return
+         */
+        public static boolean hasNetwork(Context paramContext)
+        {
+            if (paramContext != null)
+            {
+                ConnectivityManager localConnectivityManager = (ConnectivityManager)paramContext.getSystemService(Context.CONNECTIVITY_SERVICE);
+                NetworkInfo localNetworkInfo = localConnectivityManager.getActiveNetworkInfo();
+                if (localNetworkInfo != null)
+                    return localNetworkInfo.isAvailable();
+            }
+            return false;
+        }
+
     }
 
 

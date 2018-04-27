@@ -25,5 +25,5 @@ dependencies {
     compile rootProject.ext.dependencies["avi-loading"]
     compile project(":mvp")
     compile rootProject.ext.dependencies["Klog"]
-    compile rootProject.ext.dependencies["QMUI"]
+//    compile rootProject.ext.dependencies["QMUI"]
 }

@@ -11,11 +11,13 @@ import com.lepoint.ljfmvp.model.BannerBean;
 import com.lepoint.ljfmvp.model.TokenBean;
 import com.lepoint.ljfmvp.present.MainPresent;
 import com.lepoint.ljfmvp.ui.fragment.HomeFragment;
+import com.qmuiteam.qmui.widget.QMUITopBar;
 
 import java.util.ArrayList;
 import java.util.List;
 
 import butterknife.BindView;
+import butterknife.ButterKnife;
 import butterknife.OnClick;
 import cn.droidlover.xdroidmvp.base.XFragmentAdapter;
 
@@ -26,6 +28,8 @@ public class MainActivity extends BaseActivity<MainPresent> {
     ViewPager vpMainHome;
     @BindView(R.id.buttonPanel)
     Button buttonPanel;
+    @BindView(R.id.qm_topbar)
+    QMUITopBar qmTopbar;
     private List<Fragment> fragmentList = new ArrayList<>();
 
     @Override
@@ -34,7 +38,9 @@ public class MainActivity extends BaseActivity<MainPresent> {
         fragmentList.add(homeFragment);
         XFragmentAdapter xFragmentAdapter = new XFragmentAdapter(getSupportFragmentManager(), fragmentList, null);
         vpMainHome.setAdapter(xFragmentAdapter);
-        getP().getHomeData();
+        //        getP().getHomeData();
+        qmTopbar.setTitle("首页");
+
     }
 
     @Override
@@ -61,5 +67,12 @@ public class MainActivity extends BaseActivity<MainPresent> {
     @OnClick(R.id.buttonPanel)
     public void onViewClicked() {
         getP().getHomeData();
+    }
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        // TODO: add setContentView(...) invocation
+        ButterKnife.bind(this);
     }
 }

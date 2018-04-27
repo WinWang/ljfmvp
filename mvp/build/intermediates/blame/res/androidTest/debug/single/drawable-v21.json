@@ -1,15 +1,35 @@
 [
     {
         "merged": "F:\\ljfmvp\\mvp\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-v21\\design_bottom_navigation_item_background.xml",
-        "source": "C:\\Users\\admin\\.gradle\\caches\\transforms-1\\files-1.1\\design-26.1.0.aar\\1d1b12aae9e806c52557d67f9697fceb\\res\\drawable-v21\\design_bottom_navigation_item_background.xml"
+        "source": "C:\\Users\\admin\\.gradle\\caches\\transforms-1\\files-1.1\\design-27.0.1.aar\\e2e6a4fdea8cfe041e1a21318453a289\\res\\drawable-v21\\design_bottom_navigation_item_background.xml"
+    },
+    {
+        "merged": "F:\\ljfmvp\\mvp\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-v21\\qmui_s_list_item_bg_with_border_bottom_inset.xml",
+        "source": "C:\\Users\\admin\\.gradle\\caches\\transforms-1\\files-1.1\\qmui-1.1.0.aar\\bf55b97ef8e33dd3f7d86f23adc29bfe\\res\\drawable-v21\\qmui_s_list_item_bg_with_border_bottom_inset.xml"
+    },
+    {
+        "merged": "F:\\ljfmvp\\mvp\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-v21\\qmui_s_list_item_bg_with_border_none.xml",
+        "source": "C:\\Users\\admin\\.gradle\\caches\\transforms-1\\files-1.1\\qmui-1.1.0.aar\\bf55b97ef8e33dd3f7d86f23adc29bfe\\res\\drawable-v21\\qmui_s_list_item_bg_with_border_none.xml"
     },
     {
         "merged": "F:\\ljfmvp\\mvp\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-v21\\avd_show_password.xml",
-        "source": "C:\\Users\\admin\\.gradle\\caches\\transforms-1\\files-1.1\\design-26.1.0.aar\\1d1b12aae9e806c52557d67f9697fceb\\res\\drawable-v21\\avd_show_password.xml"
+        "source": "C:\\Users\\admin\\.gradle\\caches\\transforms-1\\files-1.1\\design-27.0.1.aar\\e2e6a4fdea8cfe041e1a21318453a289\\res\\drawable-v21\\avd_show_password.xml"
+    },
+    {
+        "merged": "F:\\ljfmvp\\mvp\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-v21\\qmui_s_list_item_bg_with_border_bottom_inset_left.xml",
+        "source": "C:\\Users\\admin\\.gradle\\caches\\transforms-1\\files-1.1\\qmui-1.1.0.aar\\bf55b97ef8e33dd3f7d86f23adc29bfe\\res\\drawable-v21\\qmui_s_list_item_bg_with_border_bottom_inset_left.xml"
     },
     {
         "merged": "F:\\realProject\\XDroidMvp-master\\mvp\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-v21\\abc_action_bar_item_background_material.xml",
         "source": "F:\\realProject\\XDroidMvp-master\\mvp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\drawable-v21\\abc_action_bar_item_background_material.xml"
+    },
+    {
+        "merged": "F:\\ljfmvp\\mvp\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-v21\\qmui_s_list_item_bg_with_border_double.xml",
+        "source": "C:\\Users\\admin\\.gradle\\caches\\transforms-1\\files-1.1\\qmui-1.1.0.aar\\bf55b97ef8e33dd3f7d86f23adc29bfe\\res\\drawable-v21\\qmui_s_list_item_bg_with_border_double.xml"
+    },
+    {
+        "merged": "F:\\ljfmvp\\mvp\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-v21\\qmui_s_list_item_bg_with_border_bottom.xml",
+        "source": "C:\\Users\\admin\\.gradle\\caches\\transforms-1\\files-1.1\\qmui-1.1.0.aar\\bf55b97ef8e33dd3f7d86f23adc29bfe\\res\\drawable-v21\\qmui_s_list_item_bg_with_border_bottom.xml"
     },
     {
         "merged": "F:\\realProject\\XDroidMvp-master\\mvp\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-v21\\notification_action_background.xml",
@@ -17,19 +37,27 @@
     },
     {
         "merged": "F:\\ljfmvp\\mvp\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-v21\\abc_action_bar_item_background_material.xml",
-        "source": "C:\\Users\\admin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\f35bd6ef5672aaea29b742f53c0de73b\\res\\drawable-v21\\abc_action_bar_item_background_material.xml"
+        "source": "C:\\Users\\admin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.1.aar\\03d437ee34d769dd3e837630a4d05c11\\res\\drawable-v21\\abc_action_bar_item_background_material.xml"
     },
     {
         "merged": "F:\\ljfmvp\\mvp\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-v21\\abc_btn_colored_material.xml",
-        "source": "C:\\Users\\admin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\f35bd6ef5672aaea29b742f53c0de73b\\res\\drawable-v21\\abc_btn_colored_material.xml"
+        "source": "C:\\Users\\admin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.1.aar\\03d437ee34d769dd3e837630a4d05c11\\res\\drawable-v21\\abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "F:\\ljfmvp\\mvp\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-v21\\qmui_s_list_item_bg_with_border_top_inset_left.xml",
+        "source": "C:\\Users\\admin\\.gradle\\caches\\transforms-1\\files-1.1\\qmui-1.1.0.aar\\bf55b97ef8e33dd3f7d86f23adc29bfe\\res\\drawable-v21\\qmui_s_list_item_bg_with_border_top_inset_left.xml"
     },
     {
         "merged": "F:\\ljfmvp\\mvp\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-v21\\avd_hide_password.xml",
-        "source": "C:\\Users\\admin\\.gradle\\caches\\transforms-1\\files-1.1\\design-26.1.0.aar\\1d1b12aae9e806c52557d67f9697fceb\\res\\drawable-v21\\avd_hide_password.xml"
+        "source": "C:\\Users\\admin\\.gradle\\caches\\transforms-1\\files-1.1\\design-27.0.1.aar\\e2e6a4fdea8cfe041e1a21318453a289\\res\\drawable-v21\\avd_hide_password.xml"
+    },
+    {
+        "merged": "F:\\ljfmvp\\mvp\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-v21\\qmui_s_list_item_bg_with_border_top.xml",
+        "source": "C:\\Users\\admin\\.gradle\\caches\\transforms-1\\files-1.1\\qmui-1.1.0.aar\\bf55b97ef8e33dd3f7d86f23adc29bfe\\res\\drawable-v21\\qmui_s_list_item_bg_with_border_top.xml"
     },
     {
         "merged": "F:\\ljfmvp\\mvp\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-v21\\notification_action_background.xml",
-        "source": "C:\\Users\\admin\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\7e69190251cb882959f49370dfdab742\\res\\drawable-v21\\notification_action_background.xml"
+        "source": "C:\\Users\\admin\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.1.aar\\5ecf7598ce8d93c38262df264dbc7c8b\\res\\drawable-v21\\notification_action_background.xml"
     },
     {
         "merged": "F:\\realProject\\XDroidMvp-master\\mvp\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-v21\\abc_edit_text_material.xml",
@@ -37,7 +65,7 @@
     },
     {
         "merged": "F:\\ljfmvp\\mvp\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-v21\\design_password_eye.xml",
-        "source": "C:\\Users\\admin\\.gradle\\caches\\transforms-1\\files-1.1\\design-26.1.0.aar\\1d1b12aae9e806c52557d67f9697fceb\\res\\drawable-v21\\design_password_eye.xml"
+        "source": "C:\\Users\\admin\\.gradle\\caches\\transforms-1\\files-1.1\\design-27.0.1.aar\\e2e6a4fdea8cfe041e1a21318453a289\\res\\drawable-v21\\design_password_eye.xml"
     },
     {
         "merged": "F:\\realProject\\XDroidMvp-master\\mvp\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-v21\\abc_btn_colored_material.xml",
@@ -45,6 +73,6 @@
     },
     {
         "merged": "F:\\ljfmvp\\mvp\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-v21\\abc_edit_text_material.xml",
-        "source": "C:\\Users\\admin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\f35bd6ef5672aaea29b742f53c0de73b\\res\\drawable-v21\\abc_edit_text_material.xml"
+        "source": "C:\\Users\\admin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.1.aar\\03d437ee34d769dd3e837630a4d05c11\\res\\drawable-v21\\abc_edit_text_material.xml"
     }
 ]

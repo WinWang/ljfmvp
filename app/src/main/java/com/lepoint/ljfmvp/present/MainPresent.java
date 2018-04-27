@@ -1,6 +1,6 @@
 package com.lepoint.ljfmvp.present;
 
-import com.google.gson.Gson;
+import com.alibaba.fastjson.JSONObject;
 import com.lepoint.ljfmvp.http.HttpUtils;
 import com.lepoint.ljfmvp.http.URLConfig;
 import com.lepoint.ljfmvp.model.BannerBean;
@@ -36,33 +36,28 @@ public class MainPresent extends BasePresent<MainActivity> {
         //                    }
         //                });
 
-        Gson gson = new Gson();
-        String s = gson.toJson("{}");
+        JSONObject json = new JSONObject();
+        json.put("position", 1);
         String token = SpUtils.getString(getV(), "token", "accessToken");
         String key = SpUtils.getString(getV(), "token", "secretKey");
         long timeStamp = System.currentTimeMillis();
         String sign = StringUtils.encryptToSHA(token + URLConfig.QUERYADVERTISMENT + json.toJSONString() + timeStamp + key);
-        HttpUtils.getGankService(URLConfig.BASE_API_URL).queryHomeData(token, key, s, System.currentTimeMillis(), "", "")
+        HttpUtils.getInstance().getGankService(URLConfig.BASE_API_URL).queryHomeData(token, URLConfig.QUERYADVERTISMENT, json.toJSONString(), timeStamp, sign, "")
                 .compose(XApi.<BannerBean>getApiTransformer())
                 .compose(XApi.<BannerBean>getScheduler())
+                .compose(getV().<BannerBean>bindToLifecycle())
                 .subscribe(new ApiSubscriber<BannerBean>() {
                     @Override
                     protected void onFail(NetError error) {
                         if (error.getType() == 2) { //数据验证异常
-                            getToken();
+//                            getToken();
                         }
                     }
 
                     @Override
-                    public void onNext(BannerBean baseModel) {
-                        if (baseModel.isAuthError()) {  //权限验证错误，token过期
-                            System.out.println("请求token");
-                            getToken();
-                            getV().showData(baseModel);
-                        }
+                    public void onSuccess(BannerBean baseModel) {
 
-
-                        System.out.println(">>>>>>>"+baseModel.getMessage());
+                        System.out.println(">>>>>>>" + baseModel.getMessage());
 
                     }
                 });

@@ -16,6 +16,10 @@ import io.reactivex.subscribers.ResourceSubscriber;
 
 public abstract class ApiSubscriber<T extends IModel> extends ResourceSubscriber<T> {
 
+    @Override
+    protected void onStart() {
+        super.onStart();
+    }
 
     @Override
     public void onError(Throwable e) {
@@ -41,12 +45,19 @@ public abstract class ApiSubscriber<T extends IModel> extends ResourceSubscriber
                     return;
                 }
             }
-            onFail(error);
+            onFail(error);   //想办法在这里处理token的更新
         }
 
     }
 
+    @Override
+    public void onNext(T t) {
+        onSuccess(t);
+    }
+
     protected abstract void onFail(NetError error);
+
+    protected abstract void onSuccess(T t);
 
     @Override
     public void onComplete() {
