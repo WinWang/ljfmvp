@@ -1,2 +1,2 @@
 <?xml version="1.0" encoding="utf-8"?>
-<merger version="3"><dataSet config="main"><source path="F:\ljfmvp\mvp\src\main\assets"/><source path="F:\ljfmvp\mvp\build\generated\assets\shaders\debug"/></dataSet><dataSet config="debug"><source path="F:\ljfmvp\mvp\src\debug\assets"/></dataSet></merger>
+<merger version="3"><dataSet config="main"><source path="F:\AndroidProject\StudyProject\ljfmvp\mvp\src\main\assets"/><source path="F:\AndroidProject\StudyProject\ljfmvp\mvp\build\generated\assets\shaders\debug"/></dataSet><dataSet config="debug"><source path="F:\AndroidProject\StudyProject\ljfmvp\mvp\src\debug\assets"/></dataSet></merger>

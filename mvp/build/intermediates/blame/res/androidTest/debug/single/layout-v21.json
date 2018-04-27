@@ -8,12 +8,20 @@
         "source": "C:\\Users\\admin\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.1.aar\\5ecf7598ce8d93c38262df264dbc7c8b\\res\\layout-v21\\notification_template_icon_group.xml"
     },
     {
+        "merged": "F:\\AndroidProject\\StudyProject\\ljfmvp\\mvp\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout-v21\\notification_action.xml",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.0.aar\\688b55a5784a42abb93914366199da85\\res\\layout-v21\\notification_action.xml"
+    },
+    {
         "merged": "F:\\ljfmvp\\mvp\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout-v21\\notification_action_tombstone.xml",
         "source": "C:\\Users\\admin\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.1.aar\\5ecf7598ce8d93c38262df264dbc7c8b\\res\\layout-v21\\notification_action_tombstone.xml"
     },
     {
         "merged": "F:\\ljfmvp\\mvp\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout-v21\\notification_template_custom_big.xml",
         "source": "C:\\Users\\admin\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.1.aar\\5ecf7598ce8d93c38262df264dbc7c8b\\res\\layout-v21\\notification_template_custom_big.xml"
+    },
+    {
+        "merged": "F:\\AndroidProject\\StudyProject\\ljfmvp\\mvp\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout-v21\\notification_template_custom_big.xml",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.0.aar\\688b55a5784a42abb93914366199da85\\res\\layout-v21\\notification_template_custom_big.xml"
     },
     {
         "merged": "F:\\realProject\\XDroidMvp-master\\mvp\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout-v21\\notification_template_icon_group.xml",
@@ -28,7 +36,15 @@
         "source": "C:\\Users\\admin\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.1.aar\\5ecf7598ce8d93c38262df264dbc7c8b\\res\\layout-v21\\notification_action.xml"
     },
     {
+        "merged": "F:\\AndroidProject\\StudyProject\\ljfmvp\\mvp\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout-v21\\notification_action_tombstone.xml",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.0.aar\\688b55a5784a42abb93914366199da85\\res\\layout-v21\\notification_action_tombstone.xml"
+    },
+    {
         "merged": "F:\\realProject\\XDroidMvp-master\\mvp\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout-v21\\notification_action.xml",
         "source": "F:\\realProject\\XDroidMvp-master\\mvp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\layout-v21\\notification_action.xml"
+    },
+    {
+        "merged": "F:\\AndroidProject\\StudyProject\\ljfmvp\\mvp\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout-v21\\notification_template_icon_group.xml",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.0.aar\\688b55a5784a42abb93914366199da85\\res\\layout-v21\\notification_template_icon_group.xml"
     }
 ]

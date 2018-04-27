@@ -47,7 +47,7 @@ ext {
             "canary-release"             : "com.squareup.leakcanary:leakcanary-android-no-op:1.4-beta2",
 
             "Klog"                       :"com.github.zhaokaiqiang.klog:library:0.0.1",
-            "QMUI"                       :"com.qmuiteam:qmui:1.1.0"
+            "QMUI"                       :"com.qmuiteam:qmui:1.1.2"
 
     ]
 

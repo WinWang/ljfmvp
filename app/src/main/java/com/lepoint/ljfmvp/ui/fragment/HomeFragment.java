@@ -7,6 +7,7 @@ import android.widget.Toast;
 
 import com.lepoint.ljfmvp.R;
 import com.lepoint.ljfmvp.present.HomeFragPresent;
+import com.lepoint.ljfmvp.utils.ToastUtil;
 
 import butterknife.BindView;
 import butterknife.OnClick;
@@ -29,7 +30,7 @@ public class HomeFragment extends XLazyFragment<HomeFragPresent> {
 
     public void setData(String text) {
         tvHomeFrag.setText(text);
-        Toast.makeText(context, text, Toast.LENGTH_SHORT).show();
+        ToastUtil.showToast(context, text);
     }
 
     @Override
@@ -41,7 +42,6 @@ public class HomeFragment extends XLazyFragment<HomeFragPresent> {
     public HomeFragPresent newP() {
         return new HomeFragPresent();
     }
-
 
 
     @OnClick(R.id.btn_home_frag_text)

@@ -1,5 +1,6 @@
 package com.lepoint.ljfmvp.ui.activity;
 
+import android.Manifest;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.view.ViewPager;
@@ -11,6 +12,7 @@ import com.lepoint.ljfmvp.model.BannerBean;
 import com.lepoint.ljfmvp.model.TokenBean;
 import com.lepoint.ljfmvp.present.MainPresent;
 import com.lepoint.ljfmvp.ui.fragment.HomeFragment;
+import com.lepoint.ljfmvp.utils.ToastUtil;
 import com.qmuiteam.qmui.widget.QMUITopBar;
 
 import java.util.ArrayList;
@@ -20,6 +22,7 @@ import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
 import cn.droidlover.xdroidmvp.base.XFragmentAdapter;
+import io.reactivex.functions.Consumer;
 
 public class MainActivity extends BaseActivity<MainPresent> {
 
@@ -40,6 +43,22 @@ public class MainActivity extends BaseActivity<MainPresent> {
         vpMainHome.setAdapter(xFragmentAdapter);
         //        getP().getHomeData();
         qmTopbar.setTitle("首页");
+        qmTopbar.setSubTitle("我是副标题");
+        getRxPermissions()
+                .request(Manifest.permission.WRITE_EXTERNAL_STORAGE,
+                        Manifest.permission.READ_EXTERNAL_STORAGE,
+                        Manifest.permission.READ_PHONE_STATE)
+                .subscribe(new Consumer<Boolean>() {
+                    @Override
+                    public void accept(Boolean aBoolean) throws Exception {
+                        if (aBoolean) {
+                            ToastUtil.showToast(context, "权限成功");
+                        } else {
+                            ToastUtil.showToast(context, "权限失败");
+                        }
+                    }
+                });
+
 
     }
 
@@ -69,10 +88,5 @@ public class MainActivity extends BaseActivity<MainPresent> {
         getP().getHomeData();
     }
 
-    @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        // TODO: add setContentView(...) invocation
-        ButterKnife.bind(this);
-    }
+
 }
