@@ -1,11 +1,11 @@
 [
     {
         "merged": "F:\\ljfmvp\\mvp\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\grow_from_bottomleft_to_topright.xml",
-        "source": "C:\\Users\\admin\\.gradle\\caches\\transforms-1\\files-1.1\\qmui-1.1.0.aar\\bf55b97ef8e33dd3f7d86f23adc29bfe\\res\\anim\\grow_from_bottomleft_to_topright.xml"
+        "source": "C:\\Users\\admin\\.gradle\\caches\\transforms-1\\files-1.1\\qmui-1.1.2.aar\\0dbf072b088826e288b5fce170dcf4bb\\res\\anim\\grow_from_bottomleft_to_topright.xml"
     },
     {
         "merged": "F:\\ljfmvp\\mvp\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\slide_still.xml",
-        "source": "C:\\Users\\admin\\.gradle\\caches\\transforms-1\\files-1.1\\qmui-1.1.0.aar\\bf55b97ef8e33dd3f7d86f23adc29bfe\\res\\anim\\slide_still.xml"
+        "source": "C:\\Users\\admin\\.gradle\\caches\\transforms-1\\files-1.1\\qmui-1.1.2.aar\\0dbf072b088826e288b5fce170dcf4bb\\res\\anim\\slide_still.xml"
     },
     {
         "merged": "F:\\AndroidProject\\StudyProject\\ljfmvp\\mvp\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\grow_from_bottomright_to_topleft.xml",
@@ -13,7 +13,7 @@
     },
     {
         "merged": "F:\\ljfmvp\\mvp\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\grow_from_top.xml",
-        "source": "C:\\Users\\admin\\.gradle\\caches\\transforms-1\\files-1.1\\qmui-1.1.0.aar\\bf55b97ef8e33dd3f7d86f23adc29bfe\\res\\anim\\grow_from_top.xml"
+        "source": "C:\\Users\\admin\\.gradle\\caches\\transforms-1\\files-1.1\\qmui-1.1.2.aar\\0dbf072b088826e288b5fce170dcf4bb\\res\\anim\\grow_from_top.xml"
     },
     {
         "merged": "F:\\AndroidProject\\StudyProject\\ljfmvp\\mvp\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\decelerate_factor_interpolator.xml",
@@ -25,7 +25,7 @@
     },
     {
         "merged": "F:\\ljfmvp\\mvp\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\abc_shrink_fade_out_from_bottom.xml",
-        "source": "C:\\Users\\admin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.1.aar\\03d437ee34d769dd3e837630a4d05c11\\res\\anim\\abc_shrink_fade_out_from_bottom.xml"
+        "source": "C:\\Users\\admin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.0.aar\\ec8df092ee493c55c5f4180134a7a387\\res\\anim\\abc_shrink_fade_out_from_bottom.xml"
     },
     {
         "merged": "F:\\AndroidProject\\StudyProject\\ljfmvp\\mvp\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\abc_popup_exit.xml",
@@ -41,7 +41,7 @@
     },
     {
         "merged": "F:\\ljfmvp\\mvp\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\slide_out_left.xml",
-        "source": "C:\\Users\\admin\\.gradle\\caches\\transforms-1\\files-1.1\\qmui-1.1.0.aar\\bf55b97ef8e33dd3f7d86f23adc29bfe\\res\\anim\\slide_out_left.xml"
+        "source": "C:\\Users\\admin\\.gradle\\caches\\transforms-1\\files-1.1\\qmui-1.1.2.aar\\0dbf072b088826e288b5fce170dcf4bb\\res\\anim\\slide_out_left.xml"
     },
     {
         "merged": "F:\\AndroidProject\\StudyProject\\ljfmvp\\mvp\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\abc_slide_in_bottom.xml",
@@ -53,15 +53,19 @@
     },
     {
         "merged": "F:\\ljfmvp\\mvp\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\grow_from_topleft_to_bottomright.xml",
-        "source": "C:\\Users\\admin\\.gradle\\caches\\transforms-1\\files-1.1\\qmui-1.1.0.aar\\bf55b97ef8e33dd3f7d86f23adc29bfe\\res\\anim\\grow_from_topleft_to_bottomright.xml"
+        "source": "C:\\Users\\admin\\.gradle\\caches\\transforms-1\\files-1.1\\qmui-1.1.2.aar\\0dbf072b088826e288b5fce170dcf4bb\\res\\anim\\grow_from_topleft_to_bottomright.xml"
+    },
+    {
+        "merged": "F:\\ljfmvp\\mvp\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\abc_tooltip_exit.xml",
+        "source": "C:\\Users\\admin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.0.aar\\ec8df092ee493c55c5f4180134a7a387\\res\\anim\\abc_tooltip_exit.xml"
     },
     {
         "merged": "F:\\ljfmvp\\mvp\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\abc_popup_exit.xml",
-        "source": "C:\\Users\\admin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.1.aar\\03d437ee34d769dd3e837630a4d05c11\\res\\anim\\abc_popup_exit.xml"
+        "source": "C:\\Users\\admin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.0.aar\\ec8df092ee493c55c5f4180134a7a387\\res\\anim\\abc_popup_exit.xml"
     },
     {
         "merged": "F:\\ljfmvp\\mvp\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\slide_in_right.xml",
-        "source": "C:\\Users\\admin\\.gradle\\caches\\transforms-1\\files-1.1\\qmui-1.1.0.aar\\bf55b97ef8e33dd3f7d86f23adc29bfe\\res\\anim\\slide_in_right.xml"
+        "source": "C:\\Users\\admin\\.gradle\\caches\\transforms-1\\files-1.1\\qmui-1.1.2.aar\\0dbf072b088826e288b5fce170dcf4bb\\res\\anim\\slide_in_right.xml"
     },
     {
         "merged": "F:\\AndroidProject\\StudyProject\\ljfmvp\\mvp\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\scale_enter.xml",
@@ -89,7 +93,7 @@
     },
     {
         "merged": "F:\\ljfmvp\\mvp\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\shrink_from_bottomright_to_topleft.xml",
-        "source": "C:\\Users\\admin\\.gradle\\caches\\transforms-1\\files-1.1\\qmui-1.1.0.aar\\bf55b97ef8e33dd3f7d86f23adc29bfe\\res\\anim\\shrink_from_bottomright_to_topleft.xml"
+        "source": "C:\\Users\\admin\\.gradle\\caches\\transforms-1\\files-1.1\\qmui-1.1.2.aar\\0dbf072b088826e288b5fce170dcf4bb\\res\\anim\\shrink_from_bottomright_to_topleft.xml"
     },
     {
         "merged": "F:\\realProject\\XDroidMvp-master\\mvp\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\abc_fade_in.xml",
@@ -113,7 +117,7 @@
     },
     {
         "merged": "F:\\ljfmvp\\mvp\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\scale_exit.xml",
-        "source": "C:\\Users\\admin\\.gradle\\caches\\transforms-1\\files-1.1\\qmui-1.1.0.aar\\bf55b97ef8e33dd3f7d86f23adc29bfe\\res\\anim\\scale_exit.xml"
+        "source": "C:\\Users\\admin\\.gradle\\caches\\transforms-1\\files-1.1\\qmui-1.1.2.aar\\0dbf072b088826e288b5fce170dcf4bb\\res\\anim\\scale_exit.xml"
     },
     {
         "merged": "F:\\AndroidProject\\StudyProject\\ljfmvp\\mvp\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\tooltip_enter.xml",
@@ -121,7 +125,7 @@
     },
     {
         "merged": "F:\\ljfmvp\\mvp\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\design_bottom_sheet_slide_out.xml",
-        "source": "C:\\Users\\admin\\.gradle\\caches\\transforms-1\\files-1.1\\design-27.0.1.aar\\e2e6a4fdea8cfe041e1a21318453a289\\res\\anim\\design_bottom_sheet_slide_out.xml"
+        "source": "C:\\Users\\admin\\.gradle\\caches\\transforms-1\\files-1.1\\design-27.1.0.aar\\a247a871d7365e1d76f8b814ab113711\\res\\anim\\design_bottom_sheet_slide_out.xml"
     },
     {
         "merged": "F:\\AndroidProject\\StudyProject\\ljfmvp\\mvp\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\grow_from_topright_to_bottomleft.xml",
@@ -129,7 +133,7 @@
     },
     {
         "merged": "F:\\ljfmvp\\mvp\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\slide_out_right.xml",
-        "source": "C:\\Users\\admin\\.gradle\\caches\\transforms-1\\files-1.1\\qmui-1.1.0.aar\\bf55b97ef8e33dd3f7d86f23adc29bfe\\res\\anim\\slide_out_right.xml"
+        "source": "C:\\Users\\admin\\.gradle\\caches\\transforms-1\\files-1.1\\qmui-1.1.2.aar\\0dbf072b088826e288b5fce170dcf4bb\\res\\anim\\slide_out_right.xml"
     },
     {
         "merged": "F:\\AndroidProject\\StudyProject\\ljfmvp\\mvp\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\slide_still.xml",
@@ -144,8 +148,12 @@
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.0.aar\\b4c840899e8797ca38821d616bcbfed1\\res\\anim\\abc_grow_fade_in_from_bottom.xml"
     },
     {
+        "merged": "F:\\ljfmvp\\mvp\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\abc_tooltip_enter.xml",
+        "source": "C:\\Users\\admin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.0.aar\\ec8df092ee493c55c5f4180134a7a387\\res\\anim\\abc_tooltip_enter.xml"
+    },
+    {
         "merged": "F:\\ljfmvp\\mvp\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\slide_in_left.xml",
-        "source": "C:\\Users\\admin\\.gradle\\caches\\transforms-1\\files-1.1\\qmui-1.1.0.aar\\bf55b97ef8e33dd3f7d86f23adc29bfe\\res\\anim\\slide_in_left.xml"
+        "source": "C:\\Users\\admin\\.gradle\\caches\\transforms-1\\files-1.1\\qmui-1.1.2.aar\\0dbf072b088826e288b5fce170dcf4bb\\res\\anim\\slide_in_left.xml"
     },
     {
         "merged": "F:\\AndroidProject\\StudyProject\\ljfmvp\\mvp\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\abc_popup_enter.xml",
@@ -157,7 +165,7 @@
     },
     {
         "merged": "F:\\ljfmvp\\mvp\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\abc_slide_in_top.xml",
-        "source": "C:\\Users\\admin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.1.aar\\03d437ee34d769dd3e837630a4d05c11\\res\\anim\\abc_slide_in_top.xml"
+        "source": "C:\\Users\\admin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.0.aar\\ec8df092ee493c55c5f4180134a7a387\\res\\anim\\abc_slide_in_top.xml"
     },
     {
         "merged": "F:\\AndroidProject\\StudyProject\\ljfmvp\\mvp\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\scale_exit.xml",
@@ -173,7 +181,7 @@
     },
     {
         "merged": "F:\\ljfmvp\\mvp\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\abc_grow_fade_in_from_bottom.xml",
-        "source": "C:\\Users\\admin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.1.aar\\03d437ee34d769dd3e837630a4d05c11\\res\\anim\\abc_grow_fade_in_from_bottom.xml"
+        "source": "C:\\Users\\admin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.0.aar\\ec8df092ee493c55c5f4180134a7a387\\res\\anim\\abc_grow_fade_in_from_bottom.xml"
     },
     {
         "merged": "F:\\AndroidProject\\StudyProject\\ljfmvp\\mvp\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\grow_from_top.xml",
@@ -181,7 +189,7 @@
     },
     {
         "merged": "F:\\ljfmvp\\mvp\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\abc_fade_out.xml",
-        "source": "C:\\Users\\admin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.1.aar\\03d437ee34d769dd3e837630a4d05c11\\res\\anim\\abc_fade_out.xml"
+        "source": "C:\\Users\\admin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.0.aar\\ec8df092ee493c55c5f4180134a7a387\\res\\anim\\abc_fade_out.xml"
     },
     {
         "merged": "F:\\realProject\\XDroidMvp-master\\mvp\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\abc_fade_out.xml",
@@ -189,15 +197,15 @@
     },
     {
         "merged": "F:\\ljfmvp\\mvp\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\abc_popup_enter.xml",
-        "source": "C:\\Users\\admin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.1.aar\\03d437ee34d769dd3e837630a4d05c11\\res\\anim\\abc_popup_enter.xml"
+        "source": "C:\\Users\\admin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.0.aar\\ec8df092ee493c55c5f4180134a7a387\\res\\anim\\abc_popup_enter.xml"
     },
     {
         "merged": "F:\\ljfmvp\\mvp\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\abc_slide_out_top.xml",
-        "source": "C:\\Users\\admin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.1.aar\\03d437ee34d769dd3e837630a4d05c11\\res\\anim\\abc_slide_out_top.xml"
+        "source": "C:\\Users\\admin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.0.aar\\ec8df092ee493c55c5f4180134a7a387\\res\\anim\\abc_slide_out_top.xml"
     },
     {
         "merged": "F:\\ljfmvp\\mvp\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\decelerate_factor_interpolator.xml",
-        "source": "C:\\Users\\admin\\.gradle\\caches\\transforms-1\\files-1.1\\qmui-1.1.0.aar\\bf55b97ef8e33dd3f7d86f23adc29bfe\\res\\anim\\decelerate_factor_interpolator.xml"
+        "source": "C:\\Users\\admin\\.gradle\\caches\\transforms-1\\files-1.1\\qmui-1.1.2.aar\\0dbf072b088826e288b5fce170dcf4bb\\res\\anim\\decelerate_factor_interpolator.xml"
     },
     {
         "merged": "F:\\AndroidProject\\StudyProject\\ljfmvp\\mvp\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\grow_from_topleft_to_bottomright.xml",
@@ -205,15 +213,15 @@
     },
     {
         "merged": "F:\\ljfmvp\\mvp\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\grow_from_bottomright_to_topleft.xml",
-        "source": "C:\\Users\\admin\\.gradle\\caches\\transforms-1\\files-1.1\\qmui-1.1.0.aar\\bf55b97ef8e33dd3f7d86f23adc29bfe\\res\\anim\\grow_from_bottomright_to_topleft.xml"
+        "source": "C:\\Users\\admin\\.gradle\\caches\\transforms-1\\files-1.1\\qmui-1.1.2.aar\\0dbf072b088826e288b5fce170dcf4bb\\res\\anim\\grow_from_bottomright_to_topleft.xml"
     },
     {
         "merged": "F:\\ljfmvp\\mvp\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\shrink_from_topright_to_bottomleft.xml",
-        "source": "C:\\Users\\admin\\.gradle\\caches\\transforms-1\\files-1.1\\qmui-1.1.0.aar\\bf55b97ef8e33dd3f7d86f23adc29bfe\\res\\anim\\shrink_from_topright_to_bottomleft.xml"
+        "source": "C:\\Users\\admin\\.gradle\\caches\\transforms-1\\files-1.1\\qmui-1.1.2.aar\\0dbf072b088826e288b5fce170dcf4bb\\res\\anim\\shrink_from_topright_to_bottomleft.xml"
     },
     {
         "merged": "F:\\ljfmvp\\mvp\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\shrink_from_top.xml",
-        "source": "C:\\Users\\admin\\.gradle\\caches\\transforms-1\\files-1.1\\qmui-1.1.0.aar\\bf55b97ef8e33dd3f7d86f23adc29bfe\\res\\anim\\shrink_from_top.xml"
+        "source": "C:\\Users\\admin\\.gradle\\caches\\transforms-1\\files-1.1\\qmui-1.1.2.aar\\0dbf072b088826e288b5fce170dcf4bb\\res\\anim\\shrink_from_top.xml"
     },
     {
         "merged": "F:\\realProject\\XDroidMvp-master\\mvp\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\abc_slide_out_bottom.xml",
@@ -225,15 +233,15 @@
     },
     {
         "merged": "F:\\ljfmvp\\mvp\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\abc_fade_in.xml",
-        "source": "C:\\Users\\admin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.1.aar\\03d437ee34d769dd3e837630a4d05c11\\res\\anim\\abc_fade_in.xml"
+        "source": "C:\\Users\\admin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.0.aar\\ec8df092ee493c55c5f4180134a7a387\\res\\anim\\abc_fade_in.xml"
     },
     {
         "merged": "F:\\ljfmvp\\mvp\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\design_bottom_sheet_slide_in.xml",
-        "source": "C:\\Users\\admin\\.gradle\\caches\\transforms-1\\files-1.1\\design-27.0.1.aar\\e2e6a4fdea8cfe041e1a21318453a289\\res\\anim\\design_bottom_sheet_slide_in.xml"
+        "source": "C:\\Users\\admin\\.gradle\\caches\\transforms-1\\files-1.1\\design-27.1.0.aar\\a247a871d7365e1d76f8b814ab113711\\res\\anim\\design_bottom_sheet_slide_in.xml"
     },
     {
         "merged": "F:\\ljfmvp\\mvp\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\grow_from_topright_to_bottomleft.xml",
-        "source": "C:\\Users\\admin\\.gradle\\caches\\transforms-1\\files-1.1\\qmui-1.1.0.aar\\bf55b97ef8e33dd3f7d86f23adc29bfe\\res\\anim\\grow_from_topright_to_bottomleft.xml"
+        "source": "C:\\Users\\admin\\.gradle\\caches\\transforms-1\\files-1.1\\qmui-1.1.2.aar\\0dbf072b088826e288b5fce170dcf4bb\\res\\anim\\grow_from_topright_to_bottomleft.xml"
     },
     {
         "merged": "F:\\AndroidProject\\StudyProject\\ljfmvp\\mvp\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\abc_slide_out_bottom.xml",
@@ -245,11 +253,11 @@
     },
     {
         "merged": "F:\\ljfmvp\\mvp\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\abc_slide_in_bottom.xml",
-        "source": "C:\\Users\\admin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.1.aar\\03d437ee34d769dd3e837630a4d05c11\\res\\anim\\abc_slide_in_bottom.xml"
+        "source": "C:\\Users\\admin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.0.aar\\ec8df092ee493c55c5f4180134a7a387\\res\\anim\\abc_slide_in_bottom.xml"
     },
     {
         "merged": "F:\\ljfmvp\\mvp\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\scale_enter.xml",
-        "source": "C:\\Users\\admin\\.gradle\\caches\\transforms-1\\files-1.1\\qmui-1.1.0.aar\\bf55b97ef8e33dd3f7d86f23adc29bfe\\res\\anim\\scale_enter.xml"
+        "source": "C:\\Users\\admin\\.gradle\\caches\\transforms-1\\files-1.1\\qmui-1.1.2.aar\\0dbf072b088826e288b5fce170dcf4bb\\res\\anim\\scale_enter.xml"
     },
     {
         "merged": "F:\\AndroidProject\\StudyProject\\ljfmvp\\mvp\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\abc_fade_in.xml",
@@ -257,7 +265,7 @@
     },
     {
         "merged": "F:\\ljfmvp\\mvp\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\decelerate_low_factor_interpolator.xml",
-        "source": "C:\\Users\\admin\\.gradle\\caches\\transforms-1\\files-1.1\\qmui-1.1.0.aar\\bf55b97ef8e33dd3f7d86f23adc29bfe\\res\\anim\\decelerate_low_factor_interpolator.xml"
+        "source": "C:\\Users\\admin\\.gradle\\caches\\transforms-1\\files-1.1\\qmui-1.1.2.aar\\0dbf072b088826e288b5fce170dcf4bb\\res\\anim\\decelerate_low_factor_interpolator.xml"
     },
     {
         "merged": "F:\\AndroidProject\\StudyProject\\ljfmvp\\mvp\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\abc_slide_out_top.xml",
@@ -273,7 +281,7 @@
     },
     {
         "merged": "F:\\ljfmvp\\mvp\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\shrink_from_bottomleft_to_topright.xml",
-        "source": "C:\\Users\\admin\\.gradle\\caches\\transforms-1\\files-1.1\\qmui-1.1.0.aar\\bf55b97ef8e33dd3f7d86f23adc29bfe\\res\\anim\\shrink_from_bottomleft_to_topright.xml"
+        "source": "C:\\Users\\admin\\.gradle\\caches\\transforms-1\\files-1.1\\qmui-1.1.2.aar\\0dbf072b088826e288b5fce170dcf4bb\\res\\anim\\shrink_from_bottomleft_to_topright.xml"
     },
     {
         "merged": "F:\\AndroidProject\\StudyProject\\ljfmvp\\mvp\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\slide_out_left.xml",
@@ -289,7 +297,7 @@
     },
     {
         "merged": "F:\\ljfmvp\\mvp\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\abc_slide_out_bottom.xml",
-        "source": "C:\\Users\\admin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.1.aar\\03d437ee34d769dd3e837630a4d05c11\\res\\anim\\abc_slide_out_bottom.xml"
+        "source": "C:\\Users\\admin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.0.aar\\ec8df092ee493c55c5f4180134a7a387\\res\\anim\\abc_slide_out_bottom.xml"
     },
     {
         "merged": "F:\\AndroidProject\\StudyProject\\ljfmvp\\mvp\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\abc_fade_out.xml",
@@ -301,15 +309,15 @@
     },
     {
         "merged": "F:\\ljfmvp\\mvp\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\grow_from_bottom.xml",
-        "source": "C:\\Users\\admin\\.gradle\\caches\\transforms-1\\files-1.1\\qmui-1.1.0.aar\\bf55b97ef8e33dd3f7d86f23adc29bfe\\res\\anim\\grow_from_bottom.xml"
+        "source": "C:\\Users\\admin\\.gradle\\caches\\transforms-1\\files-1.1\\qmui-1.1.2.aar\\0dbf072b088826e288b5fce170dcf4bb\\res\\anim\\grow_from_bottom.xml"
     },
     {
         "merged": "F:\\ljfmvp\\mvp\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\design_snackbar_out.xml",
-        "source": "C:\\Users\\admin\\.gradle\\caches\\transforms-1\\files-1.1\\design-27.0.1.aar\\e2e6a4fdea8cfe041e1a21318453a289\\res\\anim\\design_snackbar_out.xml"
+        "source": "C:\\Users\\admin\\.gradle\\caches\\transforms-1\\files-1.1\\design-27.1.0.aar\\a247a871d7365e1d76f8b814ab113711\\res\\anim\\design_snackbar_out.xml"
     },
     {
         "merged": "F:\\ljfmvp\\mvp\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\shrink_from_topleft_to_bottomright.xml",
-        "source": "C:\\Users\\admin\\.gradle\\caches\\transforms-1\\files-1.1\\qmui-1.1.0.aar\\bf55b97ef8e33dd3f7d86f23adc29bfe\\res\\anim\\shrink_from_topleft_to_bottomright.xml"
+        "source": "C:\\Users\\admin\\.gradle\\caches\\transforms-1\\files-1.1\\qmui-1.1.2.aar\\0dbf072b088826e288b5fce170dcf4bb\\res\\anim\\shrink_from_topleft_to_bottomright.xml"
     },
     {
         "merged": "F:\\realProject\\XDroidMvp-master\\mvp\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\abc_popup_exit.xml",
@@ -325,7 +333,7 @@
     },
     {
         "merged": "F:\\ljfmvp\\mvp\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\shrink_from_bottom.xml",
-        "source": "C:\\Users\\admin\\.gradle\\caches\\transforms-1\\files-1.1\\qmui-1.1.0.aar\\bf55b97ef8e33dd3f7d86f23adc29bfe\\res\\anim\\shrink_from_bottom.xml"
+        "source": "C:\\Users\\admin\\.gradle\\caches\\transforms-1\\files-1.1\\qmui-1.1.2.aar\\0dbf072b088826e288b5fce170dcf4bb\\res\\anim\\shrink_from_bottom.xml"
     },
     {
         "merged": "F:\\realProject\\XDroidMvp-master\\mvp\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\design_bottom_sheet_slide_out.xml",
@@ -357,7 +365,7 @@
     },
     {
         "merged": "F:\\ljfmvp\\mvp\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\design_snackbar_in.xml",
-        "source": "C:\\Users\\admin\\.gradle\\caches\\transforms-1\\files-1.1\\design-27.0.1.aar\\e2e6a4fdea8cfe041e1a21318453a289\\res\\anim\\design_snackbar_in.xml"
+        "source": "C:\\Users\\admin\\.gradle\\caches\\transforms-1\\files-1.1\\design-27.1.0.aar\\a247a871d7365e1d76f8b814ab113711\\res\\anim\\design_snackbar_in.xml"
     },
     {
         "merged": "F:\\AndroidProject\\StudyProject\\ljfmvp\\mvp\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\grow_from_bottomleft_to_topright.xml",

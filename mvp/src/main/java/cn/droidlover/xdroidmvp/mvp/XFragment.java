@@ -13,7 +13,7 @@ import com.trello.rxlifecycle2.components.support.RxFragment;
 
 import butterknife.Unbinder;
 import cn.droidlover.xdroidmvp.XDroidConf;
-import cn.droidlover.xdroidmvp.event.BusProvider;
+import cn.droidlover.xdroidmvp.event.BusFactory;
 import cn.droidlover.xdroidmvp.kit.KnifeKit;
 
 /**
@@ -55,7 +55,7 @@ public abstract class XFragment<P extends IPresent> extends RxFragment implement
     public void onActivityCreated(@Nullable Bundle savedInstanceState) {
         super.onActivityCreated(savedInstanceState);
         if (useEventBus()) {
-            BusProvider.getBus().register(this);
+            BusFactory.getBus().register(this);
         }
         bindEvent();
         initData(savedInstanceState);
@@ -107,7 +107,7 @@ public abstract class XFragment<P extends IPresent> extends RxFragment implement
     public void onDestroyView() {
         super.onDestroyView();
         if (useEventBus()) {
-            BusProvider.getBus().unregister(this);
+            BusFactory.getBus().unregister(this);
         }
         if (getP() != null) {
             getP().detachV();

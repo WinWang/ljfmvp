@@ -46,8 +46,8 @@ ext {
             "canary-debug"               : "com.squareup.leakcanary:leakcanary-android:1.4-beta2",
             "canary-release"             : "com.squareup.leakcanary:leakcanary-android-no-op:1.4-beta2",
 
-            "Klog"                       :"com.github.zhaokaiqiang.klog:library:0.0.1",
-            "QMUI"                       :"com.qmuiteam:qmui:1.1.2"
+            "QMUI"                       :"com.qmuiteam:qmui:1.1.2",
+            "EventBus"                   :"org.greenrobot:eventbus:3.1.1"
 
     ]
 

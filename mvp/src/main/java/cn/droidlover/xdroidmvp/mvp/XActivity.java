@@ -13,7 +13,7 @@ import com.trello.rxlifecycle2.components.support.RxAppCompatActivity;
 
 import butterknife.Unbinder;
 import cn.droidlover.xdroidmvp.XDroidConf;
-import cn.droidlover.xdroidmvp.event.BusProvider;
+import cn.droidlover.xdroidmvp.event.BusFactory;
 import cn.droidlover.xdroidmvp.kit.KnifeKit;
 
 /**
@@ -76,7 +76,7 @@ public abstract class XActivity<P extends IPresent> extends RxAppCompatActivity 
     protected void onStart() {
         super.onStart();
         if (useEventBus()) {
-            BusProvider.getBus().register(this);
+            BusFactory.getBus().register(this);
         }
     }
 
@@ -103,7 +103,7 @@ public abstract class XActivity<P extends IPresent> extends RxAppCompatActivity 
     protected void onDestroy() {
         super.onDestroy();
         if (useEventBus()) {
-            BusProvider.getBus().unregister(this);
+            BusFactory.getBus().unregister(this);
         }
         if (getP() != null) {
             getP().detachV();

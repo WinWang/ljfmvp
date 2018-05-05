@@ -47,6 +47,7 @@ dependencies {
     compile rootProject.ext.dependencies["rxpermissions"]
 
     compile rootProject.ext.dependencies["QMUI"]
+    compile rootProject.ext.dependencies["EventBus"]
 
 }
 

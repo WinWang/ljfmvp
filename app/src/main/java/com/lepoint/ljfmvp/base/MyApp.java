@@ -3,6 +3,9 @@ package com.lepoint.ljfmvp.base;
 import android.app.Application;
 import android.content.Context;
 
+import com.squareup.leakcanary.LeakCanary;
+
+import cn.droidlover.xdroidmvp.XDroidConf;
 import cn.droidlover.xdroidmvp.net.NetError;
 import cn.droidlover.xdroidmvp.net.NetProvider;
 import cn.droidlover.xdroidmvp.net.RequestHandler;
@@ -25,8 +28,10 @@ public class MyApp extends Application {
     @Override
     public void onCreate() {
         super.onCreate();
-        mContext = getApplicationContext();
+        mContext = this;
         registerProvider();
+        LeakCanary.install(this);
+        XDroidConf.devMode(true);
     }
 
 
@@ -76,7 +81,7 @@ public class MyApp extends Application {
 
             @Override
             public boolean configLogEnable() {
-                return false;
+                return true;
             }
 
             @Override

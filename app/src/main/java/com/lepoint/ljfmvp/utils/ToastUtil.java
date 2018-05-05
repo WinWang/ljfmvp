@@ -5,6 +5,8 @@ import android.os.Looper;
 import android.view.Gravity;
 import android.widget.Toast;
 
+import com.lepoint.ljfmvp.base.MyApp;
+
 /**
  * <Tosat消息工具>
  *
@@ -125,9 +127,9 @@ public class ToastUtil {
      *
      * @param content 要显示的内容
      */
-    public static void showToast(Context context, String content) {
+    public static void showToast(String content) {
         if (mToast == null) {
-            mToast = Toast.makeText(context, content, Toast.LENGTH_SHORT);
+            mToast = Toast.makeText(MyApp.getContext(), content, Toast.LENGTH_SHORT);
         } else {
             mToast.setText(content);
         }

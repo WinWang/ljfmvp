@@ -16,7 +16,7 @@ public class HomeFragPresent extends BasePresent<HomeFragment> {
     public void getNetData(final Context context) {
         JSONObject jsonObject = new JSONObject();
         jsonObject.put("position", 1);
-        HttpUtils.getInstance().getNetData(context, true, jsonObject, URLConfig.BASE_API_URL, URLConfig.QUERYADVERTISMENT, new HttpUtils.NetCallBack() {
+        HttpUtils.getInstance().getNetDataCache(context, true, jsonObject, URLConfig.BASE_API_URL, URLConfig.QUERYADVERTISMENT, new HttpUtils.NetCallBack() {
             @Override
             public void onSuccess(String msg) {
                 getV().setData(msg);
@@ -27,7 +27,23 @@ public class HomeFragPresent extends BasePresent<HomeFragment> {
 
             }
         });
-
-
     }
+
+    public void getNetData1(final Context context) {
+        JSONObject jsonObject = new JSONObject();
+        jsonObject.put("position", 2);
+        HttpUtils.getInstance().getNetData(context, true , jsonObject, URLConfig.BASE_API_URL, URLConfig.QUERYADVERTISMENT, new HttpUtils.NetCallBack() {
+            @Override
+            public void onSuccess(String msg) {
+                getV().setData(msg);
+            }
+
+            @Override
+            public void onFailed(Throwable t) {
+
+            }
+        });
+    }
+
+
 }

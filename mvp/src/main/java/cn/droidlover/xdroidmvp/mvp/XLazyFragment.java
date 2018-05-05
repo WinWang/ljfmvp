@@ -7,7 +7,7 @@ import com.tbruyelle.rxpermissions2.RxPermissions;
 
 import butterknife.Unbinder;
 import cn.droidlover.xdroidmvp.XDroidConf;
-import cn.droidlover.xdroidmvp.event.BusProvider;
+import cn.droidlover.xdroidmvp.event.BusFactory;
 import cn.droidlover.xdroidmvp.kit.KnifeKit;
 
 /**
@@ -31,7 +31,7 @@ public abstract class XLazyFragment<P extends IPresent>
             bindUI(getRealRootView());
         }
         if (useEventBus()) {
-            BusProvider.getBus().register(this);
+            BusFactory.getBus().register(this);
         }
         bindEvent();
         initData(savedInstanceState);
@@ -69,7 +69,7 @@ public abstract class XLazyFragment<P extends IPresent>
     protected void onDestoryLazy() {
         super.onDestoryLazy();
         if (useEventBus()) {
-            BusProvider.getBus().unregister(this);
+            BusFactory.getBus().unregister(this);
         }
         if (getP() != null) {
             getP().detachV();
