@@ -1,5 +1,6 @@
 package com.lepoint.ljfmvp.ui.activity;
 
+import android.content.Intent;
 import android.os.Bundle;
 
 import com.alibaba.fastjson.JSONObject;
@@ -27,6 +28,11 @@ public class TestActivity extends BaseActivity {
 
             }
         });
+
+        Intent intent = getIntent();
+        intent.putExtra("mark", "A");
+        setResult(200, intent);
+
 
     }
 

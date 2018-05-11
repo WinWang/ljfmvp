@@ -4,6 +4,7 @@ import android.app.Application;
 import android.content.Context;
 
 import com.squareup.leakcanary.LeakCanary;
+import com.zhy.autolayout.config.AutoLayoutConifg;
 
 import cn.droidlover.xdroidmvp.XDroidConf;
 import cn.droidlover.xdroidmvp.net.NetError;
@@ -29,6 +30,7 @@ public class MyApp extends Application {
     public void onCreate() {
         super.onCreate();
         mContext = this;
+        AutoLayoutConifg.getInstance().useDeviceSize();
         registerProvider();
         LeakCanary.install(this);
         XDroidConf.devMode(true);

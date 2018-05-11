@@ -209,7 +209,7 @@ public class HttpUtils {
                                 DiskCache.getInstance(context).put(actionName + jsonString, response);//缓存存放
                             }
                         } catch (Exception e) {
-
+                            System.out.println("error"+e.toString());
                         }
                         return response;
                     }

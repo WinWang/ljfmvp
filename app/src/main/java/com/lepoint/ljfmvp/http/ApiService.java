@@ -2,12 +2,15 @@ package com.lepoint.ljfmvp.http;
 
 import com.lepoint.ljfmvp.model.BannerBean;
 import com.lepoint.ljfmvp.model.TokenBean;
+import com.lepoint.ljfmvp.model.UpdateBean;
 
 import io.reactivex.Flowable;
 import okhttp3.ResponseBody;
 import retrofit2.http.Field;
 import retrofit2.http.FormUrlEncoded;
+import retrofit2.http.GET;
 import retrofit2.http.POST;
+import retrofit2.http.Query;
 
 /**
  * Created by admin on 2018/4/11.
@@ -37,5 +40,10 @@ public interface ApiService {
                                      @Field("timestamp") long timaStamp,
                                      @Field("sign") String sign,
                                      @Field("from") String from);
+
+
+    @GET("mobile/android/last-version")
+    Flowable<UpdateBean> getUpdate(@Query("packageName") String name);
+
 
 }

@@ -1,4 +1,4 @@
-package com.lepoint.ljfmvp.present;
+package com.lepoint.ljfmvp.base;
 
 import cn.droidlover.xdroidmvp.mvp.IView;
 import cn.droidlover.xdroidmvp.mvp.XPresent;

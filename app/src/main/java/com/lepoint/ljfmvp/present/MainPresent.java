@@ -1,13 +1,16 @@
 package com.lepoint.ljfmvp.present;
 
 import com.alibaba.fastjson.JSONObject;
+import com.lepoint.ljfmvp.base.BasePresent;
 import com.lepoint.ljfmvp.http.HttpUtils;
 import com.lepoint.ljfmvp.http.URLConfig;
 import com.lepoint.ljfmvp.model.BannerBean;
+import com.lepoint.ljfmvp.model.UpdateBean;
 import com.lepoint.ljfmvp.ui.activity.MainActivity;
 import com.lepoint.ljfmvp.utils.SpUtils;
 import com.lepoint.ljfmvp.utils.StringUtils;
 
+import cn.droidlover.xdroidmvp.log.XLog;
 import cn.droidlover.xdroidmvp.net.ApiSubscriber;
 import cn.droidlover.xdroidmvp.net.NetError;
 import cn.droidlover.xdroidmvp.net.XApi;
@@ -50,7 +53,7 @@ public class MainPresent extends BasePresent<MainActivity> {
                     @Override
                     protected void onFail(NetError error) {
                         if (error.getType() == 2) { //数据验证异常
-//                            getToken();
+                            //                            getToken();
                         }
                     }
 
@@ -63,6 +66,25 @@ public class MainPresent extends BasePresent<MainActivity> {
                 });
 
 
+    }
+
+    public void getUpdateData() {
+        HttpUtils.getInstance().getGankService(URLConfig.BASE_API_URL).getUpdate("com.plyou.leintegration")
+                .compose(XApi.<UpdateBean>getApiTransformer())
+                .compose(XApi.<UpdateBean>getScheduler())
+                .compose(getV().<UpdateBean>bindToLifecycle())
+                .subscribe(new ApiSubscriber<UpdateBean>() {
+                    @Override
+                    protected void onFail(NetError error) {
+
+                    }
+
+                    @Override
+                    protected void onSuccess(UpdateBean updateBean) {
+                        XLog.e(">>>>>" + updateBean.toString());
+                        getV().updataApp(updateBean);
+                    }
+                });
     }
 
 
