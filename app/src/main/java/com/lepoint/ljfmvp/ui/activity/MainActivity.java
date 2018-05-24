@@ -34,6 +34,7 @@ import butterknife.BindView;
 import butterknife.OnClick;
 import cn.droidlover.xdroidmvp.base.XFragmentAdapter;
 import cn.droidlover.xdroidmvp.log.XLog;
+import cn.droidlover.xdroidmvp.router.Router;
 import io.reactivex.functions.Consumer;
 
 public class MainActivity extends BaseActivity<MainPresent> {
@@ -156,12 +157,12 @@ public class MainActivity extends BaseActivity<MainPresent> {
 
     @OnClick(R.id.buttonPanel)
     public void onViewClicked() {
-        //        getP().getHomeData();
-        //        Router.newIntent(context)
-        //                .to(TestActivity.class)
-        //                .requestCode(100)
-        //                .launch();
-        getP().getUpdateData();
+        getP().getHomeData();
+        Router.newIntent(context)
+                .to(TestActivity.class)
+                .requestCode(100)
+                .launch();
+//        getP().getUpdateData();
     }
 
     @Override
